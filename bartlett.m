@@ -24,10 +24,9 @@ beta_norm=beta;
 beta_r0=max(beta_norm);
 %%%%
 
-%%%Maksimum bulma
-[argvalue, argmax] = max(beta_norm);
 
-%%%Maksimum pointlerin location kayıdı
+½finding the location of the maximum value
+[argvalue, argmax] = max(beta_norm);
 D_max(1,1)=D_new(argmax,1);
 D_max(1,2)=D_new(argmax,2);
 
